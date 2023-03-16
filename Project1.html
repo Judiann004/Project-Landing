@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prajud Welding Fabrication</title>
+  </head>
+  <style>
+    body {
+      font-family: inherit;
+      font-size: inherit;
+      margin: 0;
+      background-image: linear-gradient(
+          rgba(255, 94, 0, 0.75),
+          rgba(255, 72, 0, 0.87)
+        ),
+        url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/054/570/original/Image-Welders.jpg?1668814521);
+      background-size: cover;
+      background-position: inherit;
+      background-repeat: no-repeat;
+    }
+
+    h1,
+    h2 {
+      text-align: center;
+      font-family: Helvetica, Arial, sans-serif;
+    }
+
+    h1 {
+      color: #1a64d6;
+      border: 1px solid #000;
+      border-radius: 10px;
+      font-size: 34px;
+      line-height: 48px;
+      margin: 0;
+    }
+
+    h2 {
+      margin: 0;
+
+      font-size: 20px;
+      line-height: 48px;
+      font-weight: 400;
+    }
+
+    img {
+      margin: 0 auto;
+      display: block;
+      border-radius: 4px;
+      background: white;
+    }
+
+    a {
+      text-decoration: none;
+      color: #000;
+      font-size: 15px;
+    }
+
+    a:hover {
+      color: #fff;
+    }
+
+    .contact_btn {
+      display: block;
+      margin: 20px auto;
+      border: 1px solid #1a64d6;
+      background: #1a64d6;
+      color: #fff;
+      font-size: 16px;
+      line-height: 22px;
+      padding: 16px 24px;
+      border-radius: 30px;
+      transition: all 200ms ease;
+      box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+      cursor: pointer;
+    }
+
+    .featured-icon i {
+      display: inline-flex;
+      margin: 0;
+      align-items: center;
+      justify-content: center;
+      color: #1a64d6;
+      font-size: 25px;
+      padding-left: 14px;
+      padding-right: 5px;
+      transition: 0.4s ease-in-out;
+    }
+
+    .featured-icon i:hover {
+      background: white;
+      color: #1a64d6;
+      border: 1px solid #1a64d6;
+    }
+
+    button:hover {
+      background: white;
+      color: #1a64d6;
+      border: 1px solid #1a64d6;
+    }
+  </style>
+  <body>
+    <div>
+      <h1>
+        PraJud Welding Fabrication Services
+      </h1>
+      <h2>
+        We focus specially on Tungsten inert gas(TIG) welding operation.
+      </h2>
+      <hr />
+
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/053/679/original/Female-Welder.jpg?1668448173"
+        alt="I am Welder"
+      />
+      <hr />
+      <p>
+        TIG stands for tungsten inert gas and is technically called gas tungsten
+        arc welding (GTAW). The process uses a non-consumable tungsten electrode
+        that delivers the current to the welding arc. The tungsten and weld
+        puddle are protected and cooled with an inert gas, typically argon. TIG
+        welding is similar to oxy-acetylene welding in that you use a filler
+        material for build-up or reinforcement
+        <br />
+        <br />
+        <span>
+          <strong>
+            How does a TIG welder work?
+          </strong>
+          <br />
+          TIG machines use a foot-operated variable amperage control. After the
+          maximum amperage desired is pre-set on the machine, this allows you to
+          vary the amperage up to the maximum pre-set amperage. This is useful
+          when welding alloy steels, such as <em>4130 chrome-moly</em>. The foot
+          control allows you to slowly initiate the heat, and after the weld is
+          complete you can slowly reduce the heat.This soft start and soft stop
+          prevents temperature shocking the metal. Many alloy steels used in
+          race cars are sensitive to thermal shock. Welding by other means may
+          lead to brittle welds.
+        </span>
+      </p>
+      <a
+        href="https://www.millerwelds.com/resources/article-library/tig-it-how-a-tig-welder-works-and-when-to-tig-weld#:~:text=TIG%20stands%20for%20tungsten%20inert,an%20inert%20gas%2C%20typically%20argon."
+        target="_blank"
+      >
+        Learn more about TIG operations.
+      </a>
+      <br />
+      <br />
+      <button class="contact_btn">
+        Contact Me
+      </button>
+
+      <div class="featured-icon">
+        <a href="https://www.facebook.com/judiann.praise/" target="_blank">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+
+        <a href="https://www.instagram.com/praise_jud/" target="_blank">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/judiann-praise-1a7688184/"
+          target="_blank"
+        >
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <i class="fa-solid fa-gears"></i>
+      </div>
+    </div>
+
+    <script>
+      function contactMe() {
+        let name = prompt("What is your name?");
+        let Service = prompt("What kind of material do want us to use for you");
+
+        if (
+          Service === "Steel" ||
+          Service === "Stainless steel" ||
+          Service === "Chromoly" ||
+          Service === "Aluminium" ||
+          Service === "Brazil" ||
+          Service === "Nickel alloy" ||
+          Service === "Magnesium" ||
+          Service === "Copper" ||
+          Service === "Brass" ||
+          Service === "Bronze" ||
+          Service === "Gold"
+        ) {
+          alert(
+            `Thank you, ${name} please be patient with us let review ${Service} meanwhile we work towards giving you the best service `
+          );
+        } else {
+          alert(
+            ` ${name} non-metal cannot be used for TIG welding operation  please reconsider your material again `
+          );
+        }
+      }
+
+      let contactButton = document.querySelector("button");
+
+      contactButton.addEventListener("click", contactMe);
+    </script>
+    <script
+      src="https://kit.fontawesome.com/ddf5efa48a.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
